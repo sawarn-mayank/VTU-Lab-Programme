@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="refresh" content="1">
+ </head>
+<body>
+ <h1>Display Current Date & Time</h1>
+ <h2>
+ <?php
+ echo "The time from the server is <span style='color:tomato';> " . date("h:i:s a")."</span>";
+ echo '<br />';
+ echo "Today's Date is <span style='color:tomato';>" . date("d-m-Y");
+ 
+date_default_timezone_set('Asia/Kolkata');
+ echo " </span> and Current Time is <span style='color:red';>" . date("h:i:s a") . "</span>";
+ ?>
+ </h2>
+</body>
+<body>
+ <div style="position: absolute; top: 0; right: 0; margin-right: 10px; margin-top: 10px;  font-weight: bold;width: 100px; text-align: right;">
+ MAYANK <br/>
+ 1SG18CS050 <br/>
+ CSE -> 6(A) <br/>
+ </div>
+ </body>
+</html>
