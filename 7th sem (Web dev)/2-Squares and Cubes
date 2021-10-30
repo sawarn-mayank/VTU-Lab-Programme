@@ -1,0 +1,18 @@
+<html>
+<head><title> Squares and Cubes </title></head>
+<script>
+    document.write('<p style="text-align: center;"><b>SQUARES AND CUBES FROM 0 TO 10</b></p>');
+    document.write('<table border="4" align="center" cellspacing="4">');
+    document.write('<th> Number </th> <th> Square </th> <th> Cube </th>');
+    for(var i=1;i<=10;i++)
+        document.write("<tr><td>"+ i +"</td><td>"+ i*i + "</td><td>"+ i*i*i +"</td></tr>");
+    document.write("</table>");
+</script>
+<body>
+ <div style="position: absolute; top: 0; right: 0; margin-right: 10px; margin-top: 10px;  font-weight: bold;width: 100px; text-align: center;">
+ MAYANK <br/>
+ 1SG18CS050 <br/>
+ CSE -> 6(A) <br/>
+ </div>
+ </body>
+</html>
